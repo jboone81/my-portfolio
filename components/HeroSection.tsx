@@ -1,18 +1,31 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './HeroSection.module.css'
 
 export default function HeroSection() {
   return (
     <div className={styles.hero}>
       <div className={styles.inner}>
-        <div className={styles.tag}>Available for opportunities</div>
+        <div className={styles.photoWrap}>
+          <Image
+            src="/me.jpg"
+            alt="Portrait"
+            fill
+            sizes="180px"
+            className={styles.photoImg}
+            priority
+          />
+        </div>
+
+        <div className={styles.tag}>Looking for opportunities</div>
         <h1 className={styles.heading}>
-          Building software<br />
-          <strong>that actually works.</strong>
+          <span className={styles.line}>Problems found by Boone</span>
+          <br />
+          <strong className={styles.line}>& Problems solved by Boone</strong>
         </h1>
         <p className={styles.desc}>
-          Full-stack developer focused on clean architecture, thoughtful UI, and
-          shipping things people use. I care about the details — in code and in design.
+          Georgia State University student who is hoping to add to the world through
+          his lense of curiosity
         </p>
         <div className={styles.actions}>
           <Link href="#projects" className="btn btn-primary">View my work</Link>
@@ -21,15 +34,15 @@ export default function HeroSection() {
         <div className={styles.meta}>
           <div className={styles.metaItem}>
             <div className={styles.metaLabel}>Based in</div>
-            <div className={styles.metaValue}>Your City, State</div>
+            <div className={styles.metaValue}>Atlanta, GA</div>
           </div>
           <div className={styles.metaItem}>
             <div className={styles.metaLabel}>Stack</div>
-            <div className={styles.metaValue}>Next.js · TypeScript · Node</div>
+            <div className={styles.metaValue}>Vue · TypeScript · Node</div>
           </div>
           <div className={styles.metaItem}>
-            <div className={styles.metaLabel}>Experience</div>
-            <div className={styles.metaValue}>X years</div>
+            <div className={styles.metaLabel}>Focus</div>
+            <div className={styles.metaValue}>Full-Stack Development</div>
           </div>
         </div>
       </div>

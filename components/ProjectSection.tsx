@@ -1,4 +1,4 @@
-import styles from './ProjectsSection.module.css'
+import styles from './ProjectSection.module.css'
 
 const projects = [
   {
@@ -50,10 +50,7 @@ export default function ProjectsSection() {
       <div className={styles.grid}>
         {projects.map((project) => (
           <a key={project.title} href={project.link} className={styles.card}>
-            <div className={styles.cardTop}>
-              <div className={styles.icon}>{project.icon}</div>
-              <span className={styles.arrow}>↗</span>
-            </div>
+            <div className={styles.icon}>{project.icon}</div>
             <div className={styles.title}>{project.title}</div>
             <div className={styles.desc}>{project.desc}</div>
             <div className={styles.tags}>
