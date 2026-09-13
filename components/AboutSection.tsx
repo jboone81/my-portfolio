@@ -4,15 +4,16 @@ export default function AboutSection() {
   const skills = [
     {
       label: 'Languages',
-      tags: ['TypeScript', 'JavaScript', 'Python', 'SQL'],
+      tags: ['TypeScript', 'JavaScript', 'Python', 'SQL', 'C', 'Dart', 'HTML/CSS', 'Java'],
     },
     {
       label: 'Frameworks & tools',
-      tags: ['Next.js', 'React', 'Node.js', 'FastAPI', 'Docker'],
+      tags: ['Next.js', 'React', 'Vue.js', 'Express', 'Node.js', 'FastAPI', 'Git', 'Github', 'PyCharm', 'VS Code', 'Microsoft CoPilot',
+        'Pandas', 'Matplotlib', 'Flutter', 'Android Studio' ],
     },
     {
       label: 'Infrastructure',
-      tags: ['PostgreSQL', 'Redis', 'AWS', 'Vercel'],
+      tags: ['PostgreSQL', 'Redis', 'AWS', 'Azure AI', 'Vercel', 'Firebase', 'Supabase', 'Render'],
     },
   ]
 
