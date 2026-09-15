@@ -19,7 +19,7 @@ export default function HeroSection() {
 
         <div className={styles.tag}>Looking for opportunities</div>
         <h1 className={styles.heading}>
-          <strong className={styles.line}> Joseph Boone</strong>
+          <strong className={styles.line}> Joe Boone</strong>
         </h1>
         <p className={styles.desc}>
           Georgia State University student who is hoping to add to the world through

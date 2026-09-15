@@ -2,25 +2,15 @@ import styles from './ExperienceSection.module.css'
 
 const experience = [
   {
-    date: '2023 — Present',
-    role: 'Senior Software Engineer',
-    company: 'Company Name',
-    desc: 'Led development of core product features used by thousands of customers. Architected a new data pipeline that reduced query times by 60%, and mentored two junior engineers through their onboarding.',
-    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'AWS'],
-  },
-  {
-    date: '2021 — 2023',
-    role: 'Software Engineer',
-    company: 'Company Name',
-    desc: 'Built and maintained customer-facing features across the full stack. Collaborated closely with design and product to ship a major redesign of the core dashboard on time and under budget.',
-    tags: ['React', 'Node.js', 'Redis'],
-  },
-  {
-    date: '2019 — 2021',
-    role: 'Junior Developer',
-    company: 'Company Name',
-    desc: 'Started my career building internal tooling and automating manual workflows. Picked up strong fundamentals in version control, code review, and writing maintainable software.',
-    tags: ['Python', 'JavaScript', 'Docker'],
+    date: '2024 - 2025',
+    role: 'Tech Fellow',
+    company: 'CodePath',
+    desc: [
+      'Taught 10+ students core data structures concepts including sorting algorithm and tree traversal, resulting improvement in technical interview performance.',
+      'Met with instructors weekly to help adapt curriculum better for struggling students.',
+      'Provided personalized mentoring to 10+ students through weekly 1-on-1 sessions, helping all achieve learning goals.',
+    ],
+    tags: ['Python'],
   },
 ]
 
@@ -39,7 +29,11 @@ export default function ExperienceSection() {
             <div className={styles.right}>
               <div className={styles.role}>{item.role}</div>
               <div className={styles.company}>{item.company}</div>
-              <div className={styles.desc}>{item.desc}</div>
+              <ul className={styles.desc}>
+                {item.desc.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
               <div className={styles.tags}>
                 {item.tags.map((tag) => (
                   <span key={tag} className="tag">{tag}</span>

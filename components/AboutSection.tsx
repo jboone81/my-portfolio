@@ -21,14 +21,14 @@ export default function AboutSection() {
     <section id="about">
       <div className="section-header">
         <span className="section-num">01</span>
-        <h2>About me</h2>
+        <h2>About Boone</h2>
         <div className="section-line" />
       </div>
       <div className={styles.inner}>
         <div className={styles.text}>
-          <p>I&apos;m a <strong>full-stack software developer</strong> with a passion for building products that are fast, reliable, and enjoyable to use. I care as much about the experience of writing the code as I do about the end result.</p>
-          <p>I thrive in environments where I can work across the stack — from designing a database schema to fine-tuning a UI animation. I believe good software is a byproduct of clear thinking, strong communication, and a relentless focus on the user.</p>
-          <p>Outside of work, you&apos;ll find me contributing to open source, reading about systems design, or exploring whatever hobby has captured my attention this month.</p>
+          <p>I&apos;m currently a <strong>senior in college</strong> with a passion for building anything that my mind can think of. The more wackier and niche the idea, the more excited I get to solve it.</p>
+          <p>I thrive in any enviorment at any given time with any amount of people. I love working with people that solve the same problem that me a different way. Clear communication and strong leadership are essential to any project I find myself fiddling with. </p>
+          <p>Outside of school, you&apos;ll find me particpating in a hackathons, playing my guitar or particpating in anything that will get me out my comfort zone (shoutout TwoMileRunClub©). </p>
         </div>
         <div className={styles.skills}>
           {skills.map((group) => (
