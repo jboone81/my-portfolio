@@ -37,7 +37,7 @@ export default function Navbar() {
 
       <nav className={`${styles.panel} ${open ? styles.panelOpen : ''}`}>
         <Link href="#" className={styles.logo} onClick={() => setOpen(false)}>
-          YN.dev
+          knownasboone
         </Link>
         <ul className={styles.links}>
           {links.map((l) => (
