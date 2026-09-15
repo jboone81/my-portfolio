@@ -17,7 +17,7 @@ export default function ContactSection() {
     <section id="contact" className={styles.section}>
       <div className="section-header">
         <span className="section-num">04</span>
-        <h2>Reaching Out</h2>
+        <h2>Contact Boone</h2>
         <div className="section-line" />
       </div>
       <div className={styles.inner}>
