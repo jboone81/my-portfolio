@@ -28,7 +28,7 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className={styles.section}>
       <div className="section-header">
-        <span className="section-num">02</span>
+        <span className="section-num">03</span>
         <h2>Experience</h2>
         <div className="section-line" />
       </div>

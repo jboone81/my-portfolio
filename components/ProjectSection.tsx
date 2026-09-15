@@ -43,7 +43,7 @@ export default function ProjectsSection() {
   return (
     <section id="projects" className={styles.section}>
       <div className="section-header">
-        <span className="section-num">03</span>
+        <span className="section-num">02</span>
         <h2>Selected work</h2>
         <div className="section-line" />
       </div>
