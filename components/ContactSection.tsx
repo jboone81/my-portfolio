@@ -1,18 +1,6 @@
-'use client'
-
-import { useState } from 'react'
 import styles from './ContactSection.module.css'
 
 export default function ContactSection() {
-  const [submitted, setSubmitted] = useState(false)
-
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
-    ;(e.target as HTMLFormElement).reset()
-  }
-
   return (
     <section id="contact" className={styles.section}>
       <div className="section-header">
