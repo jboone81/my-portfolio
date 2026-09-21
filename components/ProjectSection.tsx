@@ -40,6 +40,17 @@ const projects = [
       </svg>
     ),
   },
+  {
+    title: 'Mental Zen',
+    desc: 'A cross-platform Flutter mobile app for mental wellness, with Firebase wired in for backend services. Still early-stage — the foundation is built and platform support (iOS, Android, desktop, web) is in place as features come online.',
+    tags: ['Flutter', 'Dart', 'Firebase'],
+    link: 'https://github.com/Odinjor/mental-zen-app',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <path d="M12 21c-4.5 0-7-3.5-6-8 .8 1.5 2 2.3 3.5 2.5C8 11 8.5 6 12 3c1 4 3 5 4.5 7 1 1.4 1.5 3 1.5 4.5-1.5-1-2.7-1-3.5 0-.6.8-.5 1.8.5 2.5-1 2-2.7 4-3 4z" />
+      </svg>
+    ),
+  },
 ]
 
 export default function ProjectsSection() {
