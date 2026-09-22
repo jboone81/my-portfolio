@@ -26,9 +26,9 @@ export default function AboutSection() {
       </div>
       <div className={styles.inner}>
         <div className={styles.text}>
-          <p>I&apos;m currently a <strong>senior in college</strong> with a passion for building anything that my mind can think of. The more wackier and niche the idea, the more excited I get to solve it.</p>
-          <p>I thrive in any enviorment at any given time with any amount of people. I love working with people that solve the same problem that me a different way. Clear communication and strong leadership are essential to any project I find myself fiddling with. </p>
-          <p>Outside of school, you&apos;ll find me particpating in a hackathons, playing my guitar or particpating in anything that will get me out my comfort zone (shoutout TwoMileRunClub©). </p>
+          <p>I&apos;m currently a <strong>senior in college</strong> with a passion for building anything that my mind can think of. The more wackier and more niche the idea, the more excited I get to solve it.</p>
+          <p>I thrive in any enviornment at any given time with any amount of people. I love working with people that solve the same problem as me a different way. Clear communication and strong leadership are essential to any project I find myself fiddling with. </p>
+          <p>Outside of school, you&apos;ll find me particpating in hackathons, playing my guitar or particpating in anything that will get me out my comfort zone (shoutout TwoMileRunClub©). </p>
         </div>
         <div className={styles.skills}>
           {skills.map((group) => (
